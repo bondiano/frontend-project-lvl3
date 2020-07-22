@@ -1,1 +1,1 @@
-# frontend-project-lvl3
+# Hexlet project RSS aggregator.
