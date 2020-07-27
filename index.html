@@ -6,24 +6,36 @@
     <title>RSS agregator</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid bg-dark">
-      <div class="container-xl">
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-white">
-            <h1 class="display-4">RSS Reader</h1>
-            <p class="lead">Start reading RSS today! It is easy, it is nicely.</p>
-            <form>
-              <div class="form-group row">
-                <div class="col-sm-10">
-                  <input placeholder="RSS link" type="RSS" class="form-control" id="inputRSS">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Add</button>
+    <div class="d-flex flex-column min-vh-100">
+      <main class="flex-grow-1">
+        <section class="jumbotron jumbotron-fluid bg-dark">
+          <div class="container-xl">
+            <div class="row">
+              <div class="col-md-10 col-lg-8 mx-auto text-white">
+                <h1 class="display-4">RSS Reader</h1>
+                <p class="lead">Start reading RSS today! It is easy, it is nicely.</p>
+                <form id="formRSS">
+                  <div class="row">
+                    <div class="col-sm-10">
+                      <input placeholder="RSS link" type="RSS" class="form-control" id="inputRSS">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Add RSS feed
+                    </button>
+                  </div>
+                </form>
+                <p class="text-muted my-1">Example: https://ru.hexlet.io/lessons.rss</p>
               </div>
-            </form>
-            <p class="text-muted my-1">Example: https://ru.hexlet.io/lessons.rss</p>
+            </div>
           </div>
+        </section>
+        <div>
+          <ul id="feed"></ul>
         </div>
-      </div>
+      </main>
+      <footer class="border-top p-2 d-flex justify-content-center">
+        It's project for Hexlet. Check out source code on <a href="https://github.com/bondiano/frontend-project-lvl3" target="_blank">GitHub</a>.
+      </footer>
     </div>
   </body>
 </html>
