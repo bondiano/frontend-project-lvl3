@@ -4,15 +4,23 @@ import axios from 'axios';
 
 import watchers from './watchers';
 
+const FORM_STATES = {
+  filling: 'filling',
+};
+
+const NETWORK_STATES = {
+  idle: 'idle',
+};
+
 export default () => {
   const state = {
     form: {
       value: '',
-      state: 'filling',
+      state: FORM_STATES.filling,
       error: null,
     },
     rss: {
-      state: 'idle',
+      state: NETWORK_STATES.idle,
       error: null,
     },
     feeds: [],
