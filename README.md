@@ -7,6 +7,12 @@ Yet another RSS aggregator. [Demo is here](https://frontend-project-lvl3-ruddy.v
 
 [Read more about this education project](https://ru.hexlet.io/professions/frontend/projects/11).
 
+## Requirements
+
+Node.js >= 14
+npm >= 6
+make >= 4
+
 ## Installation
 
 ```bash

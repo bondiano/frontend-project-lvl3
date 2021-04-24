@@ -1,16 +1,12 @@
+// @ts-check
+
 import 'bootstrap';
-import yup from 'yup';
-import axios from 'axios';
 
-import watchers from './watchers';
+import i18next from 'i18next';
 
-const FORM_STATES = {
-  filling: 'filling',
-};
-
-const NETWORK_STATES = {
-  idle: 'idle',
-};
+import { FORM_STATES, NETWORK_STATES } from './states';
+import runApp from './controller';
+import locales from './locales';
 
 export default () => {
   const state = {
@@ -27,11 +23,12 @@ export default () => {
     posts: [],
   };
 
-  const elements = {
-    input: document.getElementById('inputRSS'),
-    form: document.getElementById('formRSS'),
-    feed: document.getElementById('feed'),
-  };
-
-  watchers(state, elements);
+  const i18nextInstance = i18next.createInstance();
+  return i18nextInstance.init({
+    lng: 'ru',
+    debug: false,
+    resources: locales,
+  }).then(() => {
+    runApp(state, i18nextInstance);
+  });
 };

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Project from Hexlet frontend course",
   "scripts": {
-    "test": "jest --colors"
+    "test": "jest --colors",
+    "build": "NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -48,8 +49,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "i18next": "^20.2.1",
     "jquery": "^3.5.1",
     "on-change": "^2.0.1",
     "popper.js": "^1.16.1",
