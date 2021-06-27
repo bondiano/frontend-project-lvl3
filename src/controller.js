@@ -12,12 +12,12 @@ const FETCHING_TIMEOUT = 5000;
 
 const getLoadingProcessErrorType = (error) => {
   if (error.isParsingError) {
-    return 'noRss';
+    return 'notValidRss';
   }
   if (error.isAxiosError) {
-    return 'network';
+    return 'networkError';
   }
-  return 'unknown';
+  return 'unknownError';
 };
 
 const fetchNewPosts = (watchedState) => {
