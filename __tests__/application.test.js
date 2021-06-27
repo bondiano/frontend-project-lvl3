@@ -25,6 +25,7 @@ const readFixture = async (filename) => {
   return rss;
 };
 
+// eslint-disable-next-line functional/no-let
 let server;
 
 beforeEach(async () => {
