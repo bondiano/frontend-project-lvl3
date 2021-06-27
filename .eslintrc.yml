@@ -15,5 +15,9 @@ extends:
   - 'airbnb-base'
   - 'plugin:jest/recommended'
 
+parserOptions:
+  ecmaVersion: 2020
+
 rules:
   no-console: 0
+  no-param-reassign: 0

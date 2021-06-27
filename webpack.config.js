@@ -1,9 +1,12 @@
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
   devtool: 'source-map',
+  devServer: {
+    host: '0.0.0.0',
+    port: 8080,
+  },
   module: {
     rules: [
       {
@@ -16,6 +19,7 @@ module.exports = {
           },
         },
       },
+      { test: /\.css$/, use: ['style-loader', 'css-loader', 'postcss-loader'] },
       {
         test: /\.scss$/,
         use: [
@@ -29,13 +33,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'Development',
       template: 'index.html',
-    }),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-      'window.jQuery': 'jquery',
-      Popper: ['popper.js', 'default'],
     }),
   ],
 };

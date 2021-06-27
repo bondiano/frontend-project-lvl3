@@ -1,3 +1,5 @@
+// @ts-check
+
 import ru from './ru';
 import en from './en';
 

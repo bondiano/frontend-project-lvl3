@@ -1,12 +1,11 @@
 start:
-	npx webpack-dev-server
+	npx webpack serve
 
 install:
 	npm install
 
 build:
-	rm -rf dist
-	NODE_ENV=production npx webpack
+	npm run build
 
 test:
 	npm test
