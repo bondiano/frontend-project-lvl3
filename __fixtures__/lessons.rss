@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Новые уроки на Хекслете</title>
+    <description>Практические уроки по программированию</description>
+    <link>https://ru.hexlet.io/</link>
+    <webMaster>info@hexlet.io</webMaster>
+    <item>
+      <title>Production / DevOps: Деплой и эксплуатация</title>
+      <guid isPermaLink="false">2019</guid>
+      <link>https://ru.hexlet.io/courses/devops-deploy/lessons/production/theory_unit</link>
+      <description>Цель: Работа с production.</description>
+      <pubDate>Wed, 23 Jun 2021 15:24:12 +0300</pubDate>
+    </item>
+    <item>
+      <title>12 factors / DevOps: Деплой и эксплуатация</title>
+      <guid isPermaLink="false">2018</guid>
+      <link>https://ru.hexlet.io/courses/devops-deploy/lessons/12-factors/theory_unit</link>
+      <description>Цель: Познакомиться с концепцией 12 factors.</description>
+      <pubDate>Wed, 23 Jun 2021 15:23:51 +0300</pubDate>
+    </item>
+    <item>
+      <title>ООП в Ruby / Разработчик на Ruby on Rails</title>
+      <guid isPermaLink="false">2015</guid>
+      <link>https://ru.hexlet.io/courses/ruby-on-rails/lessons/oop/theory_unit</link>
+      <description>Цель: Познакомиться основами ООП, использованием классов и методов в Ruby.</description>
+      <pubDate>Tue, 22 Jun 2021 09:32:39 +0300</pubDate>
+    </item>
+    <item>
+      <title>Тестирование / Разработчик на Ruby on Rails</title>
+      <guid isPermaLink="false">2014</guid>
+      <link>https://ru.hexlet.io/courses/ruby-on-rails/lessons/testing/theory_unit</link>
+      <description>Цель: Познакомиться с тестированием и подходами к тестированию кода в Ruby</description>
+      <pubDate>Mon, 21 Jun 2021 09:10:27 +0300</pubDate>
+    </item>
+    <item>
+      <title>Функциональное программирование / Разработчик на Ruby on Rails</title>
+      <guid isPermaLink="false">2012</guid>
+      <link>https://ru.hexlet.io/courses/ruby-on-rails/lessons/functional-programming/theory_unit</link>
+      <description>Цель: Изучить основы функционалного программирования в Ruby.</description>
+      <pubDate>Mon, 21 Jun 2021 09:10:24 +0300</pubDate>
+    </item>
+    <item>
+      <title>Коллекции / Разработчик на Ruby on Rails</title>
+      <guid isPermaLink="false">2013</guid>
+      <link>https://ru.hexlet.io/courses/ruby-on-rails/lessons/collections/theory_unit</link>
+      <description>Цель: Изучить, какие бывают коллекции и как с ними работать.</description>
+      <pubDate>Mon, 21 Jun 2021 09:10:19 +0300</pubDate>
+    </item>
+    <item>
+      <title>Основы / Разработчик на Ruby on Rails</title>
+      <guid isPermaLink="false">2011</guid>
+      <link>https://ru.hexlet.io/courses/ruby-on-rails/lessons/basics/theory_unit</link>
+      <description>Цель: Изучить основы языка Ruby и написать певую программу</description>
+      <pubDate>Mon, 21 Jun 2021 09:10:10 +0300</pubDate>
+    </item>
+    <item>
+      <title>Makefile / DevOps: Автоматизация локального окружения</title>
+      <guid isPermaLink="false">2010</guid>
+      <link>https://ru.hexlet.io/courses/devops-local-setup/lessons/dotfiles/theory_unit</link>
+      <description>Цель: Научиться автоматизировать рутинные действия по запуску команд и сборке приложений.</description>
+      <pubDate>Fri, 18 Jun 2021 10:15:44 +0300</pubDate>
+    </item>
+    <item>
+      <title>Docker Compose / DevOps: Автоматизация локального окружения</title>
+      <guid isPermaLink="false">2006</guid>
+      <link>https://ru.hexlet.io/courses/devops-local-setup/lessons/docker-compose/theory_unit</link>
+      <description>Цель: Научиться управлять одновременно несколькими docker контейнерами.</description>
+      <pubDate>Wed, 16 Jun 2021 16:24:56 +0300</pubDate>
+    </item>
+    <item>
+      <title>Continuous Integration (Непрерывная интеграция) / DevOps: Автоматизация локального окружения</title>
+      <guid isPermaLink="false">2009</guid>
+      <link>https://ru.hexlet.io/courses/devops-local-setup/lessons/continuous-integration/theory_unit</link>
+      <description>Цель: Познакомиться с автоматической сборкой проекта</description>
+      <pubDate>Wed, 16 Jun 2021 12:16:48 +0300</pubDate>
+    </item>
+  </channel>
+</rss>

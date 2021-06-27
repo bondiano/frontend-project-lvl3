@@ -56,7 +56,6 @@ const loadRss = (watchedState, url) => {
       valid: true,
     };
   }).catch((e) => {
-    console.error(e);
     watchedState.rss.error = getLoadingProcessErrorType(e);
     watchedState.rss.status = NETWORK_STATE.FAILED;
   });

@@ -9,20 +9,21 @@ Yet another RSS aggregator. [Demo is here](https://frontend-project-lvl3-ruddy.v
 
 ## Requirements
 
-Node.js >= 14
-npm >= 6
-make >= 4
+* Node.js >= 14
+* npm >= 6
+* make >= 4
 
 ## Installation
 
+For install dependencies and start project use
 ```bash
-$ npm install
+$ make
 ```
 
 ## Run test
 
 ```bash
-$ npm run test
+$ make test
 ```
 
 ## Local development

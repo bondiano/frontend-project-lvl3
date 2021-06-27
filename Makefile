@@ -1,3 +1,5 @@
+all: install start
+
 start:
 	npx webpack serve
 
